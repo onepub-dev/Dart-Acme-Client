@@ -12,4 +12,5 @@ jobs:
       - run: dart pub global activate onepub '^6.4.0'
       - run: onepub login trusted
       - run: dart analyze
+      - run: dart test
       - run: dart pub publish --force
